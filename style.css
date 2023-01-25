@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+}
+.sidebar{
+    background-color: rgb(2, 2, 17);
+    width: 235px;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    left: -235px;
+    transition: .5s all ease;
+}
+h3{
+    font-size: 24px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    user-select: none ;
+    
+}
+.sidebar ul{
+    border-bottom: 10px; 
+
+}
+
+li{
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    padding-left: 40px;
+    width: 195px;
+}
+a{
+    line-height: 55px;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+a:hover{
+    padding-left: 30px;
+}
+
+#check{
+    display: none;
+}
+#btn{
+    position: absolute;
+    top: 25px;
+    font-size: 24px;
+    background-color: rgb(2, 2, 17);
+    color: white;
+    padding: 6px 10px;
+}
+#cancel{
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    background-color: rgb(2, 2, 17);
+    color: white;
+    padding: 6px 10px;
+    z-index: 1111;
+    left: -195px;
+    transition: all .5s ;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 235px;
+    opacity: 0;
+    transition: all .4 ease;
+}
+
+#check:checked ~ label #cancel{
+    left:195px;
+}
+
