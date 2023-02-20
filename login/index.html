@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Login</h1>
+        <div class="eml">
+          <input
+            type="email"
+            name="email"
+            onchange="change(this.value)"
+            placeholder="email"
+            required
+            class="email"
+          />
+          <input type="url" />
+        </div>
+        <div class="psw">
+          <input
+            type="password"
+            placeholder="password"
+            requireds
+            class="password"
+          />
+        </div>
+        <div class="rem">
+          <input type="checkbox" /> <span>Remember me</span>
+        </div>
+        <div class="fgtp">
+          <a href="/forgotpassword" class="fp">forgot password</a>
+        </div>
+        <div class="login">
+          <button class="btn_login" onclick="handleSubmit()">Login</button>
+        </div>
+        <p>or</p>
+        <div class="lgn_google">
+          <button class="google">Login with google</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    background: rgb(78, 21, 131);
+    justify-content: center;
+}
+.container{
+    background: white;
+    width: 600px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+
+}
+button{
+    padding: 8px 20px;
+    background: rgb(78, 21, 131);
+    color: white;
+    border: 0;
+    outline: none;
+}
+input{
+    margin: 10px 0 20px 0;
+    width: 500px;
+    padding: 3px;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 30px;
+    border: 0;
+    margin: 0;
+    color: rgb(116, 115, 115);
+}.err{
+    display: none;
+    text-align: center;
+    background: white;
+    color: red;
+}
+.error{
+    display: none;
+}
+.blue{
+    color: blue;
+}
+.change{
+    color: red;
+}

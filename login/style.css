@@ -1,0 +1,56 @@
+*{
+    border: none;
+    margin: 0;
+}
+.container{
+    width: 400px;
+    background-color: rgb(25, 25, 39);
+    height: 100vh;
+    color: white;
+    text-decoration: none;
+
+   
+}
+.form{
+    padding:0 50px 50px  50px;
+}
+h1{
+    line-height: 50px;
+    text-align: center;
+}
+.eml, .psw{
+    margin-bottom: 20px;
+}
+.password, .email{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+.rem{
+    margin-bottom: 10px;
+}
+.fgtp{
+    margin-bottom: 10px;
+}
+
+.fp{
+    text-decoration: none;
+    color: blue;
+}
+p{
+    /* width: 300px; */
+    text-align: center;
+}
+.login, .lgn_google{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.btn_login, .google{
+
+    width: 200px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
